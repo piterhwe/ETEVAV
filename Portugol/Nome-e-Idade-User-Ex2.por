@@ -16,6 +16,6 @@ programa
 		escreva("Insira sua idade -> ")
 		leia(idade)
 		limpa()
-		escreva("Olá! "+nome,"\nVocê tem ",idade," anos ",idade*12," meses e ",idade*12*30," dias de vida")
+		escreva("Olá! "+nome,"\nVocê tem aproximadamente ",idade," anos ",idade*12," meses e ",idade*12*30," dias de vida")
 	}
 }
