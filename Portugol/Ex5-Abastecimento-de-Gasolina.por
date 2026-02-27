@@ -7,16 +7,17 @@
 
 programa
 {
-	
+	inclua biblioteca Matematica-->mat
 	funcao inicio()
 	{
-		real valor_gasolina,valor_abastecer,litro
+		real valor_gasolina,valor_abastecer,litro,arredonda
 		escreva("Digite o valor da gasolina: ")
 		leia(valor_gasolina)
 		escreva("Digite o valor que pretende abastecer: ")
 		leia(valor_abastecer)
 		limpa()
 		litro = valor_abastecer/valor_gasolina
-		escreva("Sendo o preço da gasolina R$",valor_gasolina," e o valor para abastecimento do veículo R$",valor_abastecer," você abastecerá ",litro,"L do seu tanque.")
+		arredonda = mat.arredondar(litro,2)
+		escreva("Sendo o preço da gasolina R$",valor_gasolina," e o valor para abastecimento do veículo R$",valor_abastecer,", você abastecerá ",arredonda,"L do seu tanque.")
 	}
 }
