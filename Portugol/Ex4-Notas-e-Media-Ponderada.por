@@ -8,8 +8,7 @@ programa
 	inclua biblioteca Matematica-->mat
 	funcao inicio()
 	{
-		real p1,p2,p3,p4
-		real media,arredonda
+		real p1,p2,p3,p4,media,arredonda
 		escreva("Digite suas notas: \n")
 		leia(p1,p2,p3,p4)
 		limpa()
