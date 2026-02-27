@@ -1,0 +1,22 @@
+/*
+ * Nome: Pedro Kibelkstis de Oliveira
+ * Data: 27/02/2026
+ * Programa:O motorista de aplicativo abastece o tanque do seu carro com um determinado valor em reais. Ler o preço do litro de combustível e o valor que pretende abastecer. Calcular a quantidade de litro no
+ * abastecimento e exibir os dados lidos e o valor calculado.
+ */
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor_gasolina,valor_abastecer,litro
+		escreva("Digite o valor da gasolina: ")
+		leia(valor_gasolina)
+		escreva("Digite o valor que pretende abastecer: ")
+		leia(valor_abastecer)
+		limpa()
+		litro = valor_abastecer/valor_gasolina
+		escreva("Sendo o preço da gasolina R$",valor_gasolina," e o valor para abastecimento do veículo R$",valor_abastecer," você abastecerá ",litro,"L do seu tanque.")
+	}
+}
