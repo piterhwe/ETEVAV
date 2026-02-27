@@ -13,6 +13,6 @@ programa
 		leia(base)
 		escreva("Altura do Triângulo em Centímetros -> ")
 		leia(altura)
-		escreva("Área do Triângulo -> "+base*altura/2,"cm²")
+		escreva("Área do Triângulo -> ",base*altura/2,"cm²")
 	}
 }
