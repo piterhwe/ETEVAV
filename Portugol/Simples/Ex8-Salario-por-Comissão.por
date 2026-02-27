@@ -18,7 +18,7 @@ programa
 		escreva("Digite o Percentual de Comissão: ")
 		leia(percentual)
 		comissao = valor_vendas*(percentual/100)
-		salario_final = salario_fixo*comissao
+		salario_final = salario_fixo+comissao
 		limpa()
 		escreva("O Salário Final do Vendedor será de R$",salario_final)
 	}
