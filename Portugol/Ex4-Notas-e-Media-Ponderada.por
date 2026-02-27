@@ -14,6 +14,6 @@ programa
 		media = p1+p2*2+p3*3+p4*4/10
 		arredonda = mat.arredondar(media,2)
 		limpa()
-		escreva("Suas notas foram: ",p1,", ",p2,", ",p3,", ",p4,", ","\nSua média foi: ",arredonda)
+		escreva("Suas notas foram: ",p1,", ",p2,", ",p3,", ",p4,"\nSua média foi: ",arredonda)
 	}
 }
